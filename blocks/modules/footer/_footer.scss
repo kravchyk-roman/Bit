@@ -1,0 +1,91 @@
+.footer {
+    background-color: $white-grey-light;
+    border-top: 1px solid #e6e8ec;
+
+    &__main {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 47px 40px 24px 40px;
+
+        @media screen and (max-width: 991px) {
+            flex-direction: column;
+            gap: 20px;
+            padding: 30px;
+        }
+
+        @media screen and (max-width: 768px) {
+            padding: 20px 15px;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        @media screen and (max-width: 575px) {
+            flex-direction: row;
+        }
+    }
+
+    &__logo {
+        font-weight: 600;
+
+        @media screen and (max-width: 575px) {
+            width: 100%;
+        }
+    }
+
+    &__bottom {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 24px 40px 30px 40px;
+        border-top: 1px solid #e6e8ec;
+
+        @media screen and (max-width: 768px) {
+            padding: 14px 15px 20px 15px;
+            flex-direction: column-reverse;
+            gap: 16px;
+            align-items: flex-start;
+        }
+    }
+}
+
+.footer-nav {
+    @media screen and (max-width: 575px) {
+        width: 46%;
+    }
+
+    &--right {
+        margin-left: auto;
+
+        @media screen and (max-width: 991px) {
+            margin-left: 0;
+        }
+    }
+
+    &__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 32px;
+
+        @media screen and (max-width: 575px) {
+            flex-direction: column;
+            gap: 16px;
+            align-items: flex-start;
+        }
+    }
+
+    &__link {
+        display: block;
+        color: $grey;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+
+        &:hover {
+            color: $blue-dark;
+        }
+    }
+}

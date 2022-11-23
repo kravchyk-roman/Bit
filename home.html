@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Главная страница</title>
+    <meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="theme-color" content="#fff" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="css/styles.min.css"/>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        
+
+
+<header class="header">
+    <div class="header__side">
+        <a href="/" class="logo">
+            <div class="logo__img">
+                <img src="images/general/logo.png" alt="" width="41" height="24">
+            </div>
+            <span class="logo__text">Bitanica</span>
+        </a>
+        <nav class="main-nav header__nav">
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">Spot trading</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">Margine trading</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">P2P Trading</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">Convert</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__side header__side--right">
+        <div class="select header__select">
+            <button class="select__current"><span class="select__icon icon-Notification"></span>Notification
+            </button>
+        </div>
+        <div class="select header__select">
+            <button class="select__current"><span class="select__icon icon-wallet"></span>Wallet<span
+                    class="select__arrow icon-arrow2"></span>
+            </button>
+            <div class="select__drop">
+                <div class="select__drop-scroll">
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-money-recive"></span>
+                            <span class="select__drop-text">Fiat and Spot</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-user"></span>
+                            <span class="select__drop-text">P2P</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-trade"></span>
+                            <span class="select__drop-text">Margin</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-Paper"></span>
+                            <span class="select__drop-text">Transaction History</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="select header__select">
+            <button class="select__current"><span class="select__icon icon-document"></span>Orders<span
+                    class="select__arrow icon-arrow2"></span>
+            </button>
+            <div class="select__drop">
+                <div class="select__drop-scroll">
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-money-recive"></span>
+                            <span class="select__drop-text">Spot Order</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-trade"></span>
+                            <span class="select__drop-text">Margin Order</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-user"></span>
+                            <span class="select__drop-text">P2P Order</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="select header__select">
+            <button class="select__current"><span class="select__icon icon-profile-circle"></span>Account<span
+                    class="select__arrow icon-arrow2"></span>
+            </button>
+            <div class="select__drop">
+                <div class="select__drop-scroll">
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-settings"></span>
+                            <span class="select__drop-text">Account Settings</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-Logout"></span>
+                            <span class="select__drop-text">Log out</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lang">
+            <div class="lang__header">
+                <div class="lang__img">
+                    <span class="icon-US"><span class="path1"></span><span class="path2"></span><span
+                            class="path3"></span><span class="path4"></span></span>
+                </div>
+                <span class="lang__current">EN</span>
+            </div>
+        </div>
+    </div>
+    <a href="/" class="account-mobile-link">
+        <span class="account-mobile-link__icon icon-profile-circle"></span>
+    </a>
+    <div class="sandwich">
+        <button class="sandwich__open-btn">
+            <span class="sandwich__line"></span>
+            <span class="sandwich__line"></span>
+            <span class="sandwich__line"></span>
+        </button>
+        <div class="sandwich__main" data-sandwich="wrapper">
+            <div class="sandwich__content">
+                <div class="sandwich__header">
+                    <button class="sandwich__close-btn">
+                        <span class="sandwich__close-icon icon-close"></span>
+                    </button>
+                </div>
+                <div class="sandwich-user">
+                    <span class="sandwich-user__name">Exenonkolua@gmail.gom</span>
+                    <span class="sandwich-user__verify">not verified</span>
+                </div>
+                <div class="select sandwich__select">
+                    <button class="select__current"><span class="select__icon icon-wallet"></span>Wallet<span
+                            class="select__arrow icon-arrow2"></span>
+                    </button>
+                    <div class="select__drop">
+                        <div class="select__drop-scroll">
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-money-recive"></span>
+                                    <span class="select__drop-text">Fiat and Spot</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-user"></span>
+                                    <span class="select__drop-text">P2P</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-trade"></span>
+                                    <span class="select__drop-text">Margin</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-Paper"></span>
+                                    <span class="select__drop-text">Transaction History</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="select sandwich__select sandwich__select--mobile-nav">
+                    <button class="select__current"><span class="select__icon icon-wallet"></span>Trade<span
+                            class="select__arrow icon-arrow2"></span>
+                    </button>
+                    <div class="select__drop">
+                        <div class="select__drop-scroll">
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-money-recive"></span>
+                                    <span class="select__drop-text">Spot Order</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-trade"></span>
+                                    <span class="select__drop-text">Margine Trading</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-bitcoin-convert"></span>
+
+                                    <span class="select__drop-text">Convert </span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-user"></span>
+
+                                    <span class="select__drop-text">P2P Trading</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="select sandwich__select">
+                    <button class="select__current"><span class="select__icon icon-document"></span>Orders<span
+                            class="select__arrow icon-arrow2"></span>
+                    </button>
+                    <div class="select__drop">
+                        <div class="select__drop-scroll">
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-money-recive"></span>
+                                    <span class="select__drop-text">Spot Order</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-trade"></span>
+                                    <span class="select__drop-text">Margin Order</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-user"></span>
+                                    <span class="select__drop-text">P2P Order</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="select sandwich__select">
+                    <a href="/" class="select__current"><span class="select__icon icon-Notification"></span>Notification
+                    </a>
+                </div>
+                <div class="lang sandwich__lang">
+                    <div class="lang__header">
+                        <div class="lang__img">
+                            <span class="icon-US"><span class="path1"></span><span class="path2"></span><span
+                                    class="path3"></span><span class="path4"></span></span>
+                        </div>
+                        <span class="lang__current">EN</span>
+                    </div>
+                </div>
+                <div class="select sandwich__select">
+                    <a href="/" class="select__current"><span class="select__icon icon-receive-square"></span>Download
+                    </a>
+                </div>
+                <div class="select sandwich__select">
+                    <a href="/" class="select__current"><span class="select__icon icon-Logout"></span>Exit
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+        <main class="content">
+            <div class="content-wrapper content-wrapper--padding">
+                <div class="hero">
+                    <div class="hero__content">
+                        <div class="container">
+                            <div class="hero__info wow animate__animated animate__fadeInLeft">
+                                <h1 class="hero__title ">Buy & sell Crypto in minutes</h1>
+                                <p class="hero__desc">Join the world's largest crypto exchange</p>
+                                <a href="/" class="button button--shadow-type hero__register-btn">Register now</a>
+                            </div>
+                            <div class="hero__img wow animate__animated animate__fadeInUp">
+                                <img src="images/content/mobile-pic.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stats-panel">
+                        <div class="container">
+                            <div class="swiper-container stats-panel__container">
+                                <div class="swiper-wrapper stats-panel__list">
+                                    <div class="item-stats swiper-slide">
+                                        <div class="item-stats__header">
+                                            <div class="item-stats__icon">
+                                                <img src="images/content/item-crypto.svg" alt="">
+                                            </div>
+                                            <span class="item-stats__name">DOGE/USDT</span>
+                                            <span class="item-stats__value">-6.41%</span>
+                                        </div>
+                                        <span class="item-stats__num">0.2466</span>
+                                        <span class="item-stats__total">$ 0,345363</span>
+                                    </div>
+                                    <div class="item-stats swiper-slide">
+                                        <div class="item-stats__header">
+                                            <div class="item-stats__icon">
+                                                <img src="images/content/item-crypto2.svg" alt="">
+                                            </div>
+                                            <span class="item-stats__name">1INCH/USDT</span>
+                                            <span class="item-stats__value item-stats__value--green">+32.41%</span>
+                                        </div>
+                                        <span class="item-stats__num">5.2466</span>
+                                        <span class="item-stats__total">$ 5,24</span>
+                                    </div>
+                                    <div class="item-stats swiper-slide">
+                                        <div class="item-stats__header">
+                                            <div class="item-stats__icon">
+                                                <img src="images/content/item-crypto3.svg" alt="">
+                                            </div>
+                                            <span class="item-stats__name">ADA/USDT</span>
+                                            <span class="item-stats__value item-stats__value--green">+3332.41%</span>
+                                        </div>
+                                        <span class="item-stats__num">1.6566</span>
+                                        <span class="item-stats__total">$ 1,64</span>
+                                    </div>
+                                    <div class="item-stats swiper-slide">
+                                        <div class="item-stats__header">
+                                            <div class="item-stats__icon">
+                                                <img src="images/content/item-crypto4.svg" alt="">
+                                            </div>
+                                            <span class="item-stats__name">MATIC/USDT</span>
+                                            <span class="item-stats__value item-stats__value--green">+22.41%</span>
+                                        </div>
+                                        <span class="item-stats__num">1.6566</span>
+                                        <span class="item-stats__total">$ 1,64</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="container">
+                        <h3
+                            class="section-title section-title--big section-title--centered wow animate__animated animate__fadeInUp">
+                            Top cryptocurrencies</h3>
+                        <div class="section__content wow animate__animated animate__zoomIn">
+                            <div class="table table--crypto">
+                                <div class="table-header">
+                                    <div class="tr">
+                                        <div class="td">
+                                            <span class="table-header__name">Currency</span>
+                                        </div>
+                                        <div class="td">
+                                            <span class="table-header__name">Price</span>
+                                        </div>
+                                        <div class="td">
+                                            <span class="table-header__name">24h change</span>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <span class="table-header__name">Chart</span>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <span class="table-header__name">Trade</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="table-body">
+                                    <div class="tr">
+                                        <div class="td">
+                                            <div class="item-stats item-stats--transparent">
+                                                <div class="item-stats__header">
+                                                    <div class="item-stats__icon item-stats__icon--margin">
+                                                        <img src="images/content/currency.svg" alt="">
+                                                    </div>
+                                                    <span
+                                                        class=" item-stats__name item-stats__name--padding">Bitcoin</span>
+                                                    <span class="item-stats__currency">BTC</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-num">$36,201.34</span>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-value">+1.71%</span>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <div class="currency-chart">
+                                                <img src="images/content/chart.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <button class="button button--trade">Trade</button>
+                                        </div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td">
+                                            <div class="item-stats item-stats--transparent">
+                                                <div class="item-stats__header">
+                                                    <div class="item-stats__icon item-stats__icon--margin">
+                                                        <img src="images/content/currency2.svg" alt="">
+                                                    </div>
+                                                    <span
+                                                        class=" item-stats__name item-stats__name--padding">Ethereum</span>
+                                                    <span class="item-stats__currency">ETH</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-num">$2,605.95</span>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-value">+2.04%</span>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <div class="currency-chart">
+                                                <img src="images/content/chart2.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <button class="button button--trade">Trade</button>
+                                        </div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td">
+                                            <div class="item-stats item-stats--transparent">
+                                                <div class="item-stats__header">
+                                                    <div class="item-stats__icon item-stats__icon--margin">
+                                                        <img src="images/content/currency3.svg" alt="">
+                                                    </div>
+                                                    <span class=" item-stats__name item-stats__name--padding">Bitcoin
+                                                        Cash</span>
+                                                    <span class="item-stats__currency">BCH</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-num">$939.20</span>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-value currency-value--red">-0.74%</span>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <div class="currency-chart">
+                                                <img src="images/content/chart3.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <button class="button button--trade">Trade</button>
+                                        </div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td">
+                                            <div class="item-stats item-stats--transparent">
+                                                <div class="item-stats__header">
+                                                    <div class="item-stats__icon item-stats__icon--margin">
+                                                        <img src="images/content/currency4.svg" alt="">
+                                                    </div>
+                                                    <span
+                                                        class=" item-stats__name item-stats__name--padding">Ripple</span>
+                                                    <span class="item-stats__currency">XRP</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-num">$1.02</span>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-value">+1.20%</span>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <div class="currency-chart">
+                                                <img src="images/content/chart4.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <button class="button button--trade">Trade</button>
+                                        </div>
+                                    </div>
+                                    <div class="tr">
+                                        <div class="td">
+                                            <div class="item-stats item-stats--transparent">
+                                                <div class="item-stats__header">
+                                                    <div class="item-stats__icon item-stats__icon--margin">
+                                                        <img src="images/content/currency5.svg" alt="">
+                                                    </div>
+                                                    <span
+                                                        class=" item-stats__name item-stats__name--padding">Chainlink</span>
+                                                    <span class="item-stats__currency">LINK</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-num">$30.56</span>
+                                        </div>
+                                        <div class="td">
+                                            <span class="currency-value currency-value--red">-3.84%</span>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <div class="currency-chart">
+                                                <img src="images/content/chart5.svg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="td td--hide">
+                                            <button class="button button--trade">Trade</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="table-footer">
+                                <a href="/" class="button button--all-currency">View all currency</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="container">
+                        <div class="info-content info-content--crypto">
+                            <div class="crypto-cards wow animate__animated animate__fadeInLeft">
+                                <div class="crypto-cards__list">
+                                    <div class="crypto-card">
+                                        <div class="crypto-card__header">
+                                            <div class="crypto-card__img">
+                                                <img src="images/content/item-crypto.svg" alt="">
+                                            </div>
+                                            <div class="crypto-card__info">
+                                                <span class="crypto-card__name">Doge Coin</span>
+                                                <span class="crypto-card__currency">DOGE</span>
+                                            </div>
+                                        </div>
+                                        <div class="crypto-card__stats">
+                                            <span class="crypto-card__total">$0.379</span>
+                                            <span class="crypto-card__value">5.26% ($0.02)</span>
+                                        </div>
+                                    </div>
+                                    <div class="crypto-card">
+                                        <div class="crypto-card__header">
+                                            <div class="crypto-card__img">
+                                                <img src="images/content/currency.svg" alt="">
+                                            </div>
+                                            <div class="crypto-card__info">
+                                                <span class="crypto-card__name">Bitcoin</span>
+                                                <span class="crypto-card__currency">BTC</span>
+                                            </div>
+                                        </div>
+                                        <div class="crypto-card__stats">
+                                            <span class="crypto-card__total">$37,321.176</span>
+                                            <span class="crypto-card__value">91.40% ($321.78)</span>
+                                        </div>
+                                    </div>
+                                    <div class="crypto-card">
+                                        <div class="crypto-card__header">
+                                            <div class="crypto-card__img">
+                                                <img src="images/content/currency5.svg" alt="">
+                                            </div>
+                                            <div class="crypto-card__info">
+                                                <span class="crypto-card__name">Chainlink</span>
+                                                <span class="crypto-card__currency">LINK</span>
+                                            </div>
+                                        </div>
+                                        <div class="crypto-card__stats">
+                                            <span class="crypto-card__total">$0.589</span>
+                                            <span class="crypto-card__value">4.25% ($0.28)</span>
+                                        </div>
+                                    </div>
+                                    <div class="crypto-card">
+                                        <div class="crypto-card__header">
+                                            <div class="crypto-card__img">
+                                                <img src="images/content/currency4.svg" alt="">
+                                            </div>
+                                            <div class="crypto-card__info">
+                                                <span class="crypto-card__name">Ripple</span>
+                                                <span class="crypto-card__currency">XRP</span>
+                                            </div>
+                                        </div>
+                                        <div class="crypto-card__stats">
+                                            <span class="crypto-card__total">$659.32</span>
+                                            <span class="crypto-card__value">50% ($321.21)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="info-content__main wow animate__animated animate__fadeInRight">
+                                <h3 class="section-title section-title--big">Your Access to the<br> Top Coin Markets
+                                </h3>
+                                <p class="info-content__desc">Capitalize on trends and trade with confidence through our
+                                    expansive marketplace listings.</p>
+                                <p class="info-content__subtitle">Buy, sell and trade over 500 markets</p>
+                                <a href="/" class="button button--shadow-type">View Markets</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="page-bg">
+                    <div class="section">
+                        <div class="container">
+                            <div class="info-content">
+                                <div class="info-content__main wow animate__animated animate__fadeInLeft">
+                                    <h3 class="section-title section-title--big">Trade anywhere 24/7</h3>
+                                    <p class="info-content__desc">App and Website offer you an easy and quick way to
+                                        start
+                                        trading</p>
+                                    <div class="store-links">
+                                        <a href="/" class="store-link">
+                                            <div class="store-link__img">
+                                                <span class="store-link__icon icon-apple"></span>
+                                            </div>
+                                            <div class="store-link__info">
+                                                <span class="store-link__title">Download from <span
+                                                        class="store-link__title store-link__title--name">Appstore</span></span>
+                                            </div>
+                                        </a>
+                                        <a href="/" class="store-link">
+                                            <div class="store-link__img store-link__img--green">
+                                                <span class="store-link__icon icon-arrow3"></span>
+                                            </div>
+                                            <div class="store-link__info">
+                                                <span class="store-link__title">Download from <span
+                                                        class="store-link__title store-link__title--name">Google
+                                                        Play</span></span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div
+                                    class="info-content__img info-content__img--phone wow animate__animated animate__fadeInRight">
+                                    <img src="images/content/phone-mockup.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <div class="container">
+                            <h3
+                                class="section-title section-title--big section-title--centered wow animate__animated animate__fadeInUp">
+                                We are at your side
+                            </h3>
+                            <div class="section__content">
+                                <div class="advantages-list wow animate__animated animate__slideInUp">
+                                    <div class="advantages-item">
+                                        <div class="advantages-item__img">
+                                            <span class="advantages-item__icon icon-messages-2"></span>
+                                        </div>
+                                        <span class="advantages-item__title">Customer Service Available 24/7</span>
+                                        <p class="advantages-item__desc">Don't know what Bitcoin is? Not sure how to
+                                            trade
+                                            or
+                                            how to monitor the markets? You can ask any questions to the support
+                                            service.
+                                        </p>
+                                    </div>
+                                    <div class="advantages-item">
+                                        <div class="advantages-item__img">
+                                            <span
+                                                class="advantages-item__icon icon-vuesax-linear-shield-tick-converted"></span>
+                                        </div>
+                                        <span class="advantages-item__title">Strong security</span>
+                                        <p class="advantages-item__desc">Protection against DDoS attacks, full data
+                                            encryption,
+                                            cryptocurrency cold storage, and compliance with PCI DSS standards to
+                                            safeguard
+                                            your
+                                            funds</p>
+                                    </div>
+                                    <div class="advantages-item">
+                                        <div class="advantages-item__img">
+                                            <span
+                                                class="advantages-item__icon icon-vuesax-linear-empty-wallet-converted"></span>
+                                        </div>
+                                        <span class="advantages-item__title">Payment options</span>
+                                        <p class="advantages-item__desc">Multiple payment methods:<br>
+                                            Visa, Mastercard, bank transfer<br>
+                                            (SWIFT, SEPA, ACH, Faster Payments), cryptocurrency</p>
+                                    </div>
+                                    <div class="advantages-item">
+                                        <div class="advantages-item__img">
+                                            <span class="advantages-item__icon icon-percent"></span>
+                                        </div>
+                                        <span class="advantages-item__title">Competitive commissions</span>
+                                        <p class="advantages-item__desc">Reasonable fees for takers and makers, special
+                                            conditions for high-volume traders, and strong offers for market makers</p>
+                                    </div>
+                                    <div class="advantages-item">
+                                        <div class="advantages-item__img">
+                                            <span
+                                                class="advantages-item__icon icon-Iconly-Light-Paper-converted"></span>
+                                        </div>
+                                        <span class="advantages-item__title">Reliable order execution</span>
+                                        <p class="advantages-item__desc">Advanced order matching algorithms, a
+                                            high-liquidity
+                                            order book, favorable conditions for market making, high-frequency trading,
+                                            and
+                                            scalping strategies</p>
+                                    </div>
+                                    <div class="advantages-item">
+                                        <div class="advantages-item__img">
+                                            <span class="advantages-item__icon icon-Password"></span>
+                                        </div>
+                                        <span class="advantages-item__title">Range of API solutions</span>
+                                        <p class="advantages-item__desc">WebSocket, REST API and FIX API for automated
+                                            trading
+                                            based on the needs of individuals and institutions</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section">
+                    <div class="container">
+                        <div class="register-block wow animate__animated animate__zoomIn">
+                            <span class="register-block__name">Bitanica</span>
+                            <span class="register-block__desc">Become part of a global community of people who have
+                                found
+                                their path to the crypto world with Georgia</span>
+                            <div class="register-block__footer">
+                                <a href="/" class="button button--shadow-type register-block__btn">Register now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="footer">
+    <div class="footer__main">
+        <a href="/" class="logo footer__logo">
+            <span class="logo__text">Bitanica</span>
+        </a>
+        <nav class="footer-nav">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                    <a href="/" class="footer-nav__link">Spot trading</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="/" class="footer-nav__link">Margine trading</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="/" class="footer-nav__link">P2P Trading</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="/" class="footer-nav__link">Convert </a>
+                </li>
+            </ul>
+        </nav>
+        <nav class="footer-nav footer-nav--right">
+            <ul class="footer-nav__list">
+                <li class="footer-nav__item">
+                    <a href="/" class="footer-nav__link">Blog</a>
+                </li>
+                <li class="footer-nav__item">
+                    <a href="/" class="footer-nav__link">Help center</a>
+                </li>
+
+            </ul>
+        </nav>
+    </div>
+    <div class="footer__bottom">
+        <div class="copy">
+            <span class="copy__item">© Copyright 2021</span>
+            <span class="copy__item">|</span>
+            <span class="copy__item"> Trading Company</span>
+            <span class="copy__item">|</span>
+            <span class="copy__item">All Rights Reserved</span>
+        </div>
+        <div class="social footer__social">
+            <a href="/" class="social__link">
+                <span class="social__icon icon-facebook-f"></span>
+            </a>
+            <a href="/" class="social__link">
+                <span class="social__icon icon-twitter"></span>
+            </a>
+            <a href="/" class="social__link">
+                <span class="social__icon icon-instagram"></span>
+            </a>
+            <a href="/" class="social__link">
+                <span class="social__icon icon-youtube"></span>
+            </a>
+            <a href="/" class="social__link">
+                <span class="social__icon social__icon--small icon-vk"></span>
+            </a>
+            <a href="/" class="social__link">
+                <span class="social__icon icon-telegram-plane"></span>
+            </a>
+        </div>
+    </div>
+</footer>
+
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js
+    "></script>
+    <script>
+        new WOW().init();
+    </script>
+    <script src="js/vendor/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+</body>
+
+</html>

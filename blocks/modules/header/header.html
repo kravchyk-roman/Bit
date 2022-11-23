@@ -1,0 +1,385 @@
+@@if (context.type === 'logout') {
+<header class="header">
+    <a href="/" class="logo">
+        <div class="logo__img">
+            <img src="images/general/logo.png" alt="" width="41" height="24">
+        </div>
+        <span class="logo__text">Bitanica</span>
+    </a>
+    <div class="lang">
+        <div class="lang__header">
+            <div class="lang__img">
+                <span class="icon-US"><span class="path1"></span><span class="path2"></span><span
+                        class="path3"></span><span class="path4"></span></span>
+            </div>
+            <span class="lang__current">EN</span>
+        </div>
+    </div>
+</header>
+}
+
+@@if (context.type === 'main-in') {
+<header class="header">
+    <div class="header__side">
+        <a href="/" class="logo">
+            <div class="logo__img">
+                <img src="images/general/logo.png" alt="" width="41" height="24">
+            </div>
+            <span class="logo__text">Bitanica</span>
+        </a>
+        <nav class="main-nav header__nav">
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">Spot trading</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">Margine trading</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">P2P Trading</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">Convert</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__side header__side--right">
+        <div class="select header__select">
+            <button class="select__current"><span class="select__icon icon-Notification"></span>Notification
+            </button>
+        </div>
+        <div class="select header__select">
+            <button class="select__current"><span class="select__icon icon-wallet"></span>Wallet<span
+                    class="select__arrow icon-arrow2"></span>
+            </button>
+            <div class="select__drop">
+                <div class="select__drop-scroll">
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-money-recive"></span>
+                            <span class="select__drop-text">Fiat and Spot</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-user"></span>
+                            <span class="select__drop-text">P2P</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-trade"></span>
+                            <span class="select__drop-text">Margin</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-Paper"></span>
+                            <span class="select__drop-text">Transaction History</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="select header__select">
+            <button class="select__current"><span class="select__icon icon-document"></span>Orders<span
+                    class="select__arrow icon-arrow2"></span>
+            </button>
+            <div class="select__drop">
+                <div class="select__drop-scroll">
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-money-recive"></span>
+                            <span class="select__drop-text">Spot Order</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-trade"></span>
+                            <span class="select__drop-text">Margin Order</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-user"></span>
+                            <span class="select__drop-text">P2P Order</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="select header__select">
+            <button class="select__current"><span class="select__icon icon-profile-circle"></span>Account<span
+                    class="select__arrow icon-arrow2"></span>
+            </button>
+            <div class="select__drop">
+                <div class="select__drop-scroll">
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-settings"></span>
+                            <span class="select__drop-text">Account Settings</span>
+                        </a>
+                    </div>
+                    <div class="select__drop-item">
+                        <a href="/" class="select__drop-link">
+                            <span class="select__drop-icon icon-Logout"></span>
+                            <span class="select__drop-text">Log out</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lang">
+            <div class="lang__header">
+                <div class="lang__img">
+                    <span class="icon-US"><span class="path1"></span><span class="path2"></span><span
+                            class="path3"></span><span class="path4"></span></span>
+                </div>
+                <span class="lang__current">EN</span>
+            </div>
+        </div>
+    </div>
+    <a href="/" class="account-mobile-link">
+        <span class="account-mobile-link__icon icon-profile-circle"></span>
+    </a>
+    <div class="sandwich">
+        <button class="sandwich__open-btn">
+            <span class="sandwich__line"></span>
+            <span class="sandwich__line"></span>
+            <span class="sandwich__line"></span>
+        </button>
+        <div class="sandwich__main" data-sandwich="wrapper">
+            <div class="sandwich__content">
+                <div class="sandwich__header">
+                    <button class="sandwich__close-btn">
+                        <span class="sandwich__close-icon icon-close"></span>
+                    </button>
+                </div>
+                <div class="sandwich-user">
+                    <span class="sandwich-user__name">Exenonkolua@gmail.gom</span>
+                    <span class="sandwich-user__verify">not verified</span>
+                </div>
+                <div class="select sandwich__select">
+                    <button class="select__current"><span class="select__icon icon-wallet"></span>Wallet<span
+                            class="select__arrow icon-arrow2"></span>
+                    </button>
+                    <div class="select__drop">
+                        <div class="select__drop-scroll">
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-money-recive"></span>
+                                    <span class="select__drop-text">Fiat and Spot</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-user"></span>
+                                    <span class="select__drop-text">P2P</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-trade"></span>
+                                    <span class="select__drop-text">Margin</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-Paper"></span>
+                                    <span class="select__drop-text">Transaction History</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="select sandwich__select sandwich__select--mobile-nav">
+                    <button class="select__current"><span class="select__icon icon-wallet"></span>Trade<span
+                            class="select__arrow icon-arrow2"></span>
+                    </button>
+                    <div class="select__drop">
+                        <div class="select__drop-scroll">
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-money-recive"></span>
+                                    <span class="select__drop-text">Spot Order</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-trade"></span>
+                                    <span class="select__drop-text">Margine Trading</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-bitcoin-convert"></span>
+
+                                    <span class="select__drop-text">Convert </span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-user"></span>
+
+                                    <span class="select__drop-text">P2P Trading</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="select sandwich__select">
+                    <button class="select__current"><span class="select__icon icon-document"></span>Orders<span
+                            class="select__arrow icon-arrow2"></span>
+                    </button>
+                    <div class="select__drop">
+                        <div class="select__drop-scroll">
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-money-recive"></span>
+                                    <span class="select__drop-text">Spot Order</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-trade"></span>
+                                    <span class="select__drop-text">Margin Order</span>
+                                </a>
+                            </div>
+                            <div class="select__drop-item">
+                                <a href="/" class="select__drop-link">
+                                    <span class="select__drop-icon icon-user"></span>
+                                    <span class="select__drop-text">P2P Order</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="select sandwich__select">
+                    <a href="/" class="select__current"><span class="select__icon icon-Notification"></span>Notification
+                    </a>
+                </div>
+                <div class="lang sandwich__lang">
+                    <div class="lang__header">
+                        <div class="lang__img">
+                            <span class="icon-US"><span class="path1"></span><span class="path2"></span><span
+                                    class="path3"></span><span class="path4"></span></span>
+                        </div>
+                        <span class="lang__current">EN</span>
+                    </div>
+                </div>
+                <div class="select sandwich__select">
+                    <a href="/" class="select__current"><span class="select__icon icon-receive-square"></span>Download
+                    </a>
+                </div>
+                <div class="select sandwich__select">
+                    <a href="/" class="select__current"><span class="select__icon icon-Logout"></span>Exit
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</header>
+}
+
+@@if (context.type === 'main-out') {
+<header class="header">
+    <div class="header__side">
+        <a href="/" class="logo">
+            <div class="logo__img">
+                <img src="images/general/logo.png" alt="" width="41" height="24">
+            </div>
+            <span class="logo__text">Bitanica</span>
+        </a>
+        <nav class="main-nav header__nav">
+            <ul class="main-nav__list">
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">Spot trading</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">Margine trading</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">P2P Trading</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="/" class="main-nav__link">Convert</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+    <div class="header__side header__side--right">
+        <div class="user-nav">
+            <a href="/" class="button button--buy button--third-grey button--user-nav">Login</a>
+            <a href="/" class="button button--buy button--user-nav">Register</a>
+        </div>
+        <div class="select header__select">
+            <a href="/" class="select__current"><span class="select__icon icon-receive-square"></span>Download
+            </a>
+        </div>
+        <div class="lang header__lang">
+            <div class="lang__header">
+                <div class="lang__img">
+                    <img src="images/content/us.svg" alt="">
+                </div>
+                <span class="lang__current">EN</span>
+            </div>
+        </div>
+    </div>
+    <div class="sandwich">
+        <button class="sandwich__open-btn">
+            <span class="sandwich__line"></span>
+            <span class="sandwich__line"></span>
+            <span class="sandwich__line"></span>
+        </button>
+        <div class="sandwich__main" data-sandwich="wrapper">
+            <div class="sandwich__content">
+                <div class="sandwich__header">
+                    <button class="sandwich__close-btn">
+                        <span class="sandwich__close-icon icon-close"></span>
+                    </button>
+                </div>
+                <div class="user-nav">
+                    <a href="/" class="button button--buy button--third-grey button--user-nav">Login</a>
+                    <a href="/" class="button button--buy button--user-nav">Register</a>
+                </div>
+                <nav class="main-nav sandwich__nav">
+                    <ul class="main-nav__list">
+                        <li class="main-nav__item">
+                            <a href="/" class="main-nav__link"><span class="main-nav__icon icon-money-recive"></span>
+                                Spot trading</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="/" class="main-nav__link"><span class="main-nav__icon icon-trade"></span>Margine
+                                trading</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="/" class="main-nav__link"><span class="main-nav__icon icon-user"></span>P2P
+                                Trading</a>
+                        </li>
+                        <li class="main-nav__item">
+                            <a href="/" class="main-nav__link"><span
+                                    class="main-nav__icon icon-bitcoin-convert"></span>Convert</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="lang sandwich__lang">
+                    <div class="lang__header">
+                        <div class="lang__img">
+                            <span class="icon-US"><span class="path1"></span><span class="path2"></span><span
+                                    class="path3"></span><span class="path4"></span></span>
+                        </div>
+                        <span class="lang__current">EN</span>
+                    </div>
+                </div>
+                <div class="select sandwich__select">
+                    <a href="/" class="select__current"><span class="select__icon icon-receive-square"></span>Download
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+}
